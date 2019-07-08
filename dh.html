@@ -1,0 +1,135 @@
+<html>
+
+<body style="background:url(images/bg.jpg) repeat-x top #000000;">
+
+<nav class="navbar navbar-fixed-top navbar-blue bg-inverse">
+	<a class="navbar-brand" href="inicio.html"><img src="images/univali3.png" width="45" height="35" /></a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item" style="margin-left: 20px;">
+				<a class="nav-link" href="inicio.html">Página Inicial</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="localizacao.html">Localização</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="radio.html">Rádio Online</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="gif.html">Gif's Animados</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="imagens.html">Imagens</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="dh.html">Data e Hora</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="video.html">Vídeos</a>
+			</li>
+		</ul>
+</nav>
+
+<meta charset="utf-8">
+	<title>«Formulário»</title>
+	<link rel="icon" type="image/png" href="images/univali.png">
+	<link rel="stylesheet" href="configurações.css">
+	<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+<style>.autor{margin-left:-228px;</style>
+</head>
+
+<head>
+<body style="background:url(images/bg.jpg) repeat-x top #000000;">
+<style type="text/css">
+		h6 {text-align:right;}
+			body {
+				padding: 50px;
+			}
+			#menu {
+				font-family: Arial, sans-serif;
+				font-weight: bold;
+				text-transform: uppercase; 
+				margin: 30px 0;
+				padding: 0;
+				list-style-type: none;
+				background-color: #eee;
+				font-size: 13px;
+				height: 40px;
+				border-top: 2px solid #eee;
+				border-bottom: 2px solid #ccc;
+		</style>
+	</head>
+<center>
+<div class="postagem">
+	<div class="titulo"><span style="color: #00ffff; font-weight:bold;font-size:1.2em;">Data e Hora:</a></div>
+	<br /><br /><br /><br /><hr/>
+
+<center>	
+<div class="conteudo">
+<body>
+<h4><font color="#FFFFFF">
+<SCRIPT LANGUAGE="JAVASCRIPT">
+<!--
+
+var now = new Date();
+var mName = now.getMonth() +1 ;
+var dName = now.getDay() +1;
+var dayNr = now.getDate();
+var yearNr=now.getYear();
+if(dName==1) {Day = "Domingo";}
+if(dName==2) {Day = "Segunda-feira";}
+if(dName==3) {Day = "Terça-feira";}
+if(dName==4) {Day = "Quarta-feira";}
+if(dName==5) {Day = "Quinta-feira";}
+if(dName==6) {Day = "Sexta-feira";}
+if(dName==7) {Day = "Sábado";}
+if(mName==1){Month = "Janeiro";}
+if(mName==2){Month = "Fevereiro";}
+if(mName==3){Month = "Março";}
+if(mName==4){Month = "Abril";}
+if(mName==5){Month = "Maio";}
+if(mName==6){Month = "Junho";}
+if(mName==7){Month = "Julho";}
+if(mName==8){Month = "Agosto";}
+if(mName==9){Month = "Setembro";}
+if(mName==10){Month = "Outubro";}
+if(mName==11){Month = "Novembro";}
+if(mName==12){Month = "Dezembro";}
+if(yearNr < 2000) {Year = 1900 + yearNr;}
+else {Year = yearNr;}
+var todaysDate =(" " + Day + ", " + dayNr + "-" + Month + "-" + Year + " -");
+
+document.write('  '+todaysDate);
+
+//-->
+</SCRIPT>
+
+  
+<SPAN ID="Clock">00:00:00</SPAN>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+  var Elem = document.getElementById("Clock");
+  function Horario(){ 
+    var Hoje = new Date(); 
+    var Horas = Hoje.getHours(); 
+    if(Horas < 10){ 
+      Horas = "0"+Horas; 
+    } 
+    var Minutos = Hoje.getMinutes(); 
+    if(Minutos < 10){ 
+      Minutos = "0"+Minutos; 
+    } 
+    var Segundos = Hoje.getSeconds(); 
+    if(Segundos < 10){ 
+      Segundos = "0"+Segundos; 
+    } 
+    Elem.innerHTML = Horas+":"+Minutos+":"+Segundos; 
+    } 
+    window.setInterval("Horario()",1000);
+//-->
+</SCRIPT>
+</h4></font>
+</body>
+</html>
